@@ -11,18 +11,18 @@ class LanguagePack::Helpers::Nodebin
   end
 
   def self.hardcoded_node_lts
-    version = "8.10.0"
+    version = "10.14.1"
     {
       "number" => version,
-      "url"    => "https://s3.amazonaws.com/heroku-nodejs-bins/node/release/linux-x64/node-v#{version}-linux-x64.tar.gz"
+      "url"    => "https://s3.amazonaws.com/heroku-nodebin/node/release/linux-x64/node-v#{version}-linux-x64.tar.gz"
     }
   end
 
   def self.hardcoded_yarn
-    version = "1.9.4"
+    version = "1.13.0"
     {
       "number" => version,
-      "url"    => "https://github.com/yarnpkg/yarn/releases/download/v1.9.4/yarn-v1.9.4.tar.gz"
+      "url"    => "https://s3.amazonaws.com/heroku-nodebin/yarn/release/yarn-v#{version}.tar.gz"
     }
   end
 

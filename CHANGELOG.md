@@ -1,5 +1,25 @@
 ## Master
 
+## v198 (1/17/2019)
+
+* Rev-default Ruby version to be the latest patch release of last years Ruby version 2.5.3 (https://github.com/heroku/heroku-buildpack-ruby/pull/846)
+* Allow apps to enable `RUBYOPT=--jit` (https://github.com/heroku/heroku-buildpack-ruby/pull/848)
+
+## v197 (12/18/2018)
+
+* Upgrade node version (https://github.com/heroku/heroku-buildpack-ruby/pull/831)
+* Upgrade yarn version (https://github.com/heroku/heroku-buildpack-ruby/pull/832)
+
+## v196 (10/31/2018)
+
+* Delete the sprockets temp directory for a smaller runtime slug if they are not building assets at runtime (https://github.com/heroku/heroku-buildpack-ruby/pull/812)
+
+## v195 (10/18/2018)
+
+* Default Ruby version is now 2.4.5 (https://github.com/heroku/heroku-buildpack-ruby/pull/821)
+
+## v194 (10/16/2018)
+
 * Do not add the `jobs:work` command if an app does not have that rake task available (https://github.com/heroku/heroku-buildpack-ruby/pull/810)
 
 ## v193 (9/14/2018)
